@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(dhruvgangal.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* h1{
+        } */
+        #dhruv{
+            /* background-color:; */
+            border-width: 10px;
+            border-color: rgb(131, 92, 240);
+            border-style: solid;
+            border-radius: 10px;
+            padding: 10px;
+            margin-left:300px ;
+            margin-right: 300px;
+            
+
+        }
+        .button{
+            border-radius: 100px;
+            cursor: pointer;
+            padding: 12px;
+            color: rgb(211, 38, 119);
+        }
+        .one{
+            width: 100px;
+            height: 15px;
+            border-radius: 10px ;
+            
+        }
+        .label{
+            font-family: cursive;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>ASSIGNMENT 1</h1></center> 
+    <center> <form action="index.html" id="dhruv">
+      <div> <label for="name" class="label">Name:</label>
+       <input required type="text" name="name" id="name" class="one" ></div><br>
+       <div> <label for="pass" class="label"> Password: </label>
+       <input required type="password" name="pass" id="pass" class="one"></div><br>
+   <div><label for="gender" class="label">GENDER:</label>
+   MALE: <input type="radio" name="gender" id="gender" checked>
+   FEMALE:<input type="radio" name="gender"id="gender"></div><br>
+   <div><label for="eligible" class="label">ARE You Eligible:</label>
+   <input type="checkbox" name="eligible" id="eligible"></div><br>
+   <div><label for="date" class="label">Date:</label>
+   <input type="date" name="date" id="date"></div><br>
+   <div><label for="class" class="label">CLASS:</label>
+   <input type="number" id="class" name="class" class="one"></div><br>
+   <div><input type="submit" value="Submit" class="button">
+   <input type="reset" value="reset" class="button"></div>
+   
+      </form>
+</body>
+</html>
